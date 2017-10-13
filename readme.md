@@ -2,7 +2,7 @@
 
 ![Kerncijfers bevolking Nederland](preview.png)
 
-This data visualisation represents the population numbers of the Netherlands in the years 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2014 and 2015, as cleaned from [cbs.nl]().
+This data visualisation represents the population numbers of the Netherlands in the years 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2014 and 2015, as cleaned from [cbs.nl](https://www.cbs.nl/).
 
 ## Background:
 The purpose of this data visualisation is to show the population differences of people younger than 20 years old over 6 decades in the Netherlands. The data has been sorted by year, but you can also view the data sorted by number of people, in which case you can see when the population was the highest.
