@@ -135,7 +135,9 @@ You can interact with this bar chart by sorting the given data either by year (d
 
 ## License:
 **Original Chart created by:** Mike Bostock. GNU General Public License, version 3.
+
 **Tooltip created by:** Sami Rubenfeld.
+
 **Dataset taken from:** CBS.
 
 &copy; Max de Vries
