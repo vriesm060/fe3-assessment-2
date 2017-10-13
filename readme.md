@@ -64,7 +64,9 @@ BEGIN DATA
 ```
 
 **Step 1:**
+
 After loading in the data, this was the first section that had to be removed from the dataset. I used the following code to remove this:
+
 ```
 var header = doc.indexOf('BEGIN DATA');
 var end = doc.indexOf('\n', header);
@@ -72,14 +74,18 @@ doc = doc.slice(end).trim();
 ```
 
 **Step 2:**
+
 The dataset also featured a footer section that had to be removed. This section came after the line `END DATA.` so I could remove this almost exactly the way I removed the header:
+
 ```
 var footer = doc.indexOf('END DATA.');
 doc = doc.substring(0, footer).trim();
 ```
 
 **Step 3:**
+
 After removing the header and footer I had to take care of all the unnecessary whitespace, periods and enters within the data. I did this by writing the following code:
+
 ```
 doc = doc.replace(/ \n/g, '')
 doc = doc.replace(/ +/g, ',');
@@ -87,10 +93,12 @@ doc = doc.replace(/\./g, '');
 ```
 
 **Step 4:**
+
 Lastly, the data needed to be formatted into the CSV format. I did this by writing the following code:
 `var data = d3.csvParseRows(doc, map);`
 
 and the following function map:
+
 ```
 function map(d) {
   return {
