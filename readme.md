@@ -113,7 +113,7 @@ Now, the dataset has been cleaned.
 
 ## Interaction:
 
-You can interact with this bar chart by sorting the given data either by year (default, unchecked) or by population (checked).
+You can interact with this bar chart by sorting the given data either by year (default, unchecked) or by population (checked). There is also a tooltip showing the exact numbers when you hover over a bar.
 
 ## Features:
 
